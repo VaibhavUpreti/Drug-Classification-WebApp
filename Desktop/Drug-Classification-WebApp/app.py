@@ -19,7 +19,6 @@ def user_report():
   Cholesterol = st.sidebar.slider('Cholesterol High(0) Normal(1)', 0,1, 1 )
   Na_to_k = st.sidebar.number_input('Sodium to Potassium Ration')
 
-
   user_report_data = {
       'Age':Age,
       'Sex':Sex,
